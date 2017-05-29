@@ -45,7 +45,7 @@ RUN mkdir /shells/&& \
 EXPOSE 8080
 
 #define env variables
-ENV DB_NAME wp-content
+ENV DB_NAME wp_content
 ENV DB_USER wp_user
 ENV DB_PASSWORD 12345
 ENV DB_HOST localhost
